@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.text-center {
+	text-align:center;
+}
+.p-20 {
+	padding:20px;
+}
+.text-center {
+	text-align:center;
+}
+.login-form {
+	width:200px;
+	margin:0 auto;
+	background-color:white;
+}
+.form-control {
+	padding: 5px 40px 5px 5px;
+	margin-top: 20px;
+}
+img {
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	margin-bottom:-35px;
+}
+.mt-100 {
+	margin-top:100px;
+}
+.mt-20 {
+	margin-top:20px;
+}
+button {
+	background-color: #FFA200;
+	color: white;
+	padding: 5px 15px;
+	cursor:pointer;
+}

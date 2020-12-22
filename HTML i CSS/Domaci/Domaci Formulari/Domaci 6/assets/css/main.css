@@ -1,0 +1,62 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.container-2 {
+	width: 200px;
+	margin: 0px auto;
+}
+.text-center {
+	text-align:center;
+}
+.mt-50 {
+	margin-top:50px;
+}
+.p-20 {
+	padding:20px;
+}
+.form-control {
+	width: 200px;
+	padding: 5px 20px 5px 5px;
+	margin-bottom:10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid #DBDBDB;
+}
+.login-form {
+	width: 250px;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+p {
+	color:#36626F;
+}
+.f-left {
+	float:left;
+}
+.mb-20 {
+	margin-bottom:20px;
+}
+.form-control:focus {
+	outline:blue;
+}
+.form-control:hover {
+	outline:blue;
+}
+.form-control:active {
+	outline:blue;
+}
+a {
+
+}
+.mr-10{
+	margin-right:10px;
+}
+.mb-20 {
+	margin-bottom:20px;
+}

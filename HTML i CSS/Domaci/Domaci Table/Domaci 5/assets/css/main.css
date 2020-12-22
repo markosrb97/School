@@ -1,0 +1,16 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+table {
+	border:1px solid black;
+}
+.table-cell {
+	padding:10px;
+	border:1px solid black;
+	width:100px;
+}

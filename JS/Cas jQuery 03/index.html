@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		
+		<title> Naslovna | Javascript | jQuery Cas 03 </title>
+		
+		<!-- SEO OPTIMIZACIJA -->
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Petar Petrovic" />
+		<meta name="robots" content="NO INDEX, NO FOLLOW" />
+		
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	
+	<body>
+		
+		<form action="" method="post" >
+			<div>
+				<p>Broj A: *</p>
+				<input type="number" id="broj_a" value="" />
+			</div>
+			<div>
+				<p>Broj B: *</p>
+				<input type="number" id="broj_b" value="" />
+			</div>
+			<div>
+				<p>Operacija: *</p>
+				<select name="opr" id="operacija">
+					<option value="">izaberite operaciju</option>
+					<option value="1">Sabiraje</option>
+					<option value="2">Oduzimanje</option>
+					<option value="3">Proizvod</option>
+					<option value="4">Kolicnik</option>
+				</select>
+			</div>
+			<p class="response-msg"></p>
+			<p>Rezultat je: <span id="res"></span></p>
+			<button name="btn" id="btn" type="button" onclick="izracunaj()">Izracunaj</button>
+		</form>
+		
+		<script src="assets/js/jquery-3.5.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,36 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+a {
+	text-decoration:none;
+}
+.my-menu {
+	list-style-type:none;
+	margin-top:40px;
+}
+.my-menu li {
+	margin-top:5px;
+	width:300px;
+	background-color:#639BB4;
+	border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 10px 0px 15px 0px rgba(0,0,0,0.25);
+	-moz-box-shadow: 10px 0px 15px 0px rgba(0,0,0,0.25);
+	box-shadow: 10px 0px 15px 0px rgba(0,0,0,0.25);
+}
+.my-menu li a {
+	padding:10px;
+	display:block;
+	color:white;
+}
+.my-menu li :hover .my-menu li {
+	width:350px;
+}
+	

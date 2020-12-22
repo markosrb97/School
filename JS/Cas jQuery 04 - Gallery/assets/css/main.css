@@ -1,0 +1,28 @@
+.container {
+	width: 940px;
+	margin: 50px auto;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.gallery .active-border {
+	border: 2px solid red;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #dedede;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.preview-image {
+	border: 2px solid #dedede;
+}

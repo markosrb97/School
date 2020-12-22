@@ -1,0 +1,19 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.my-table {
+	border-collapse:collapse;
+}
+.mt-20 {
+	margin-top:20px;
+}
+.table-cell {
+	padding:10px 30px;
+	text-align:center;
+	border:1px solid black;
+}

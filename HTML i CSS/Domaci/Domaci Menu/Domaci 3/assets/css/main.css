@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+a {
+	text-decoration:none;
+}
+.main-menu li {
+	display:inline-block;
+	margin:5px;
+}
+.main-menu a {
+	padding:15px;
+	display:block;
+	color:black;
+}
+.main-menu li a:hover {
+	color:orange;
+	border-bottom:1px solid orange;
+}
+
+.sub-menu {
+	color: black;
+	background-color: white;
+	width: 150px;
+	position: absolute;
+	border-top: 2px solid orange;
+	text-align: center;
+	display:none;
+}
+.sub-menu li {
+	border-bottom:1px solid silver;
+}
+#port:hover .sub-menu {
+	display:block;
+}
+
+
+	
+	

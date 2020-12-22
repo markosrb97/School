@@ -1,0 +1,58 @@
+* {
+	margin:0px;
+	padding:0px:
+}
+.border {
+	border:2px solid blue;
+}
+.p-30 {
+	padding:30px;
+}
+.h-300 {
+	height:300px;
+}
+.container {
+	width:940px;
+	margin: 0px auto;
+}
+.ml-10 {
+	margin-left:10px;
+}
+.mt-10 {
+	margin-top:10px;
+}
+.mb-10 {
+	margin-bottom:10px;
+}
+.of-auto {
+	overflow: auto;
+}
+.text-box {
+	width: 614px;
+	height: 105px;
+}
+.text-box-small {
+	width:300px;
+	height: 105px;
+}
+.f-left {
+	float:left;
+}
+.f-right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.image-box {
+	width:200px
+}
+.w-150 {
+	width:165px;
+}
+.aling-center {
+	text-align:center;
+}
+.f-right {
+	float:right;
+}

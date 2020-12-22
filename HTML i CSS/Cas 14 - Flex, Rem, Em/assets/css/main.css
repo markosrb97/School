@@ -1,0 +1,130 @@
+@import url("colors.css");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.2rem;
+}
+
+p {
+	font-size: 0.9rem;
+}
+
+a {
+	text-decoration:none;
+}
+
+.my-header {
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+	width: 360px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.menu {
+	background-color: var(--menu-bgcolor);
+	padding: 15px;
+}
+
+.menu li { 
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.menu li:last-child {
+	margin-right: 0px;
+}
+
+.menu li a { 
+	color: var(--link-menu-color);
+}
+
+.active {
+	border-bottom: 2px solid var(--link-menu-color);
+}
+
+.menu li a:hover { 
+	border-bottom: 2px solid var(--link-menu-color);
+}
+
+.main {
+	display: flex;
+}
+
+.left {
+	flex: 0.3;
+	border-right:1px solid grey;
+	padding: 20px;
+}
+
+.right {
+	flex: 0.7;
+	padding: 20px;
+}
+
+.items {
+	display: flex;
+    justify-content: space-between;
+	margin-top:20px;
+	flex-wrap: wrap;
+}
+
+.item {
+	width: 200px;
+	border: 1px solid grey;
+	margin-bottom: 20px;
+}
+
+.item img {
+	width: 100%;
+}
+
+.item-left {
+	border:1px solid grey;
+	margin-bottom: 20px;
+}
+
+.item-left img {
+	width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+	html {
+		font-size: 14px;
+	}
+	
+	p {
+		font-size: 1rem;
+	}
+
+	.left, .right{
+		flex: 1;
+	}
+	
+	.main {
+		flex-direction: column;
+	}
+	
+	.item {
+		width: 100%;
+	}
+}

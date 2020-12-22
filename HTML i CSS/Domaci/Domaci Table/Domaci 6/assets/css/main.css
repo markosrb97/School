@@ -1,0 +1,28 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.top-price {
+	padding:15px;
+	border:2px solid green;
+	border-radius:50%;
+	width:50px;
+}
+table {
+	border:1px solid black;
+}
+.text-center {
+	text-align:center;
+}
+.w-200 {
+	width:200px;
+}
+.f-left {
+	float:left;
+}
+.mr-30 {
+	margin-right:30px;

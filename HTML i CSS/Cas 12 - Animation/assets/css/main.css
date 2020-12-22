@@ -1,0 +1,49 @@
+
+@keyframes blink {
+	from { background-color:red; }
+	to { background-color: blue; }
+}
+
+@-webkit-keyframes blink {
+	from { background-color:red; }
+	to { background-color: blue; }
+}
+
+@-moz-keyframes blink {
+	from { background-color:red; }
+	to { background-color: blue; }
+}
+
+@keyframes slider {
+	0% { background-image: url(../images/1.jpg); }
+	30% { background-image: url(../images/2.jpg); }
+	66% { background-image: url(../images/3.jpg); }
+	100% { background-image: url(../images/4.jpg); }
+}
+
+
+.btn {
+	background-color:red;
+	color:white;
+	width:150px;
+	outline: none;
+	border: none;
+	padding: 12px 0px;
+	cursor: pointer;
+	animation-name: blink;
+	animation-duration: 2s;
+	/*animation-delay: 1s;*/
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.banner {
+	border: 1px solid #dedede;
+	width: 320px;
+	height: 240px;
+	margin: 0px auto;
+	background-image: url(../images/1.jpg);
+	animation-name: slider;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}

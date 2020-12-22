@@ -1,0 +1,22 @@
+#res p {
+	background-color: grey;
+	color: white;
+	font-style: italic;
+	padding: 20px;
+}
+
+#res img {
+	margin-top: 10px;
+}
+
+.btn {
+	border: 1px solid #b3b3b3;
+    padding: 10px 35px;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.active {
+	background-color: yellow;
+}

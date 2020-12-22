@@ -1,0 +1,58 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.text-center {
+	text-align:center;
+}
+.p-20 {
+	padding:20px;
+}
+.text-center {
+	text-align:center;
+}
+.login-form {
+	width:400px;
+	margin:0 auto;
+	background-color:#23313A;
+}
+.form-control {
+	padding: 5px 50px 5px 5px;
+	margin-top: 20px;
+}
+.form-control-2 {
+	padding: 5px 252px 5px 5px;
+	margin-top: 20px;
+}
+.mt-100 {
+	margin-top:100px;
+}
+h2 {
+	color: white;
+	margin-top: 20px;
+}
+.sing-up-b {
+	background-color: #16B185;
+	color: white;
+	text-decoration: none;
+}
+.log-in-b {
+	background-color: #425059;
+	color: white;
+	text-decoration: none;
+}
+.get-started-b {
+	background-color: #16B185;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+	margin-top:20px;
+}
+.p-button-top {
+	padding:10px 75px;
+}

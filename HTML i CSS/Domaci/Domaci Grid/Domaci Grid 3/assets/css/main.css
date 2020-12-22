@@ -1,0 +1,49 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+.container {
+	width:940px;
+	margin:0px auto;
+}
+.h1-size {
+	font-size:5vw;
+}
+.p-50 {
+	padding:50px;
+}
+.p-30 {
+	padding:30px;
+}
+.box {
+	border: 1px solid red;
+	width: 285px;
+	height: 200px;
+	display: inline-block;
+	margin-right: 5px;
+	overflow:auto;
+}
+.mt-30 {
+	margin-top:30px;
+}
+.reset-margin-right {
+	margin-right:0px !important 
+}
+.img-size {
+	width:285px;
+}
+.pt-15 {
+	padding-top:10px;
+}
+.p-50 {
+	padding:50px;
+}
+.w-500 {
+	width:500px;
+}
+.f-left {
+	float:left;
+}
+.pl-10 {
+	padding-left:10px;
+}

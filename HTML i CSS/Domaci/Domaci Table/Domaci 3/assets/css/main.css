@@ -1,0 +1,36 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.my-table {
+	border-collapse:collapse;
+	width:100%;
+}
+.mt-20 {
+	margin-top:20px;
+}
+.table-long-header {
+	padding: 5px 130px 5px 10px;
+	color: white;
+	text-align:left;
+}
+.table-short-header {
+	padding: 5px 50px 5px 10px;
+	color: white;
+	text-align:left;
+}
+.table-long {
+	padding: 5px 130px 5px 10px;
+	text-align:left;
+}
+.table-short {
+	padding: 5px 50px 5px 10px;
+	text-align:left;
+}
+.my-tr:nth-child(odd) {
+	background-color: #E9E9E9;
+}

@@ -1,0 +1,69 @@
+.my-text p:first-child {
+	font-style: italic;
+}
+
+.my-text {
+	border: 1px solid var(--main_color);
+}
+
+.my-text p {
+	color: var(--second-color);
+}
+
+.last-p::first-letter {
+	color: red;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.last-p::first-line {
+	color: blue;
+}
+
+::selection {
+	background-color: violet;
+}
+
+::placeholder {
+	color: red;
+}
+
+.tasks li {
+	list-style-type:none;
+}
+
+.tasks li::before {
+	content:"#";
+	padding-right: 10px;
+}
+
+.box {
+	width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transition: transform 2s, margin-left 2s;
+}
+
+.box:hover {
+	margin-left: 100px;
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+}
+
+.bg-img {
+	width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /*background-image: url(../images/profile.jpg);*/
+	overflow:hidden;
+}
+
+.bg-img img {
+	transition: transform 1s;
+}
+
+.bg-img img:hover {
+	transform:scale(1.2, 1.2);
+}

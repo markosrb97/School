@@ -1,0 +1,122 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.wrapper {
+	margin: 50px auto;
+    width: 940px;
+}
+
+.d-block {
+	display:block;
+}
+
+.pl-20 {
+	padding-left:20px;
+}
+
+.pt-20 {
+	padding-top:20px;
+}
+
+.pb-20 {
+	padding-bottom:20px;
+}
+
+.pr-20 {
+	padding-right:20px;
+}
+
+.p-all-20 {
+	padding: 20px;
+}
+
+.mt-20 {
+	margin-top:20px;
+}
+
+.my-header {
+	border-top: 1px solid #dedede;
+}
+
+.logo {
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.my-nav {
+	background-color:blue;
+	color:white;
+	padding: 10px 0px;
+}
+
+.h-line {
+	width: 35px;
+    border: 2px solid red;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.main {
+	min-height: 400px;
+}
+
+.w-200 {
+	width:200px;
+}
+
+.fullname {
+	text-align:center;
+}
+
+.my-footer {
+	border-top:1px solid #dedede;
+	padding:20px 0px;
+	text-transform:uppercase;
+}
+
+.over-text {
+	position: absolute;
+    margin-top: -48px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 13px 0px;
+    background-color: rgba(0, 0, 0, 0.50);
+	z-index: 0;
+}
+
+.over-number {
+	position: absolute;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin: -45px 0px 0px 160px;
+	z-index: 1;
+}
+
+.my-text a {
+	color:blue;
+	text-decoration:none;
+}
+
+.my-text a:hover {
+	color:red;
+	text-decoration:underline;
+}
+
+.my-text a:active {
+	color:green;
+	text-decoration:underline;
+}
+
+.my-text a:visited {
+	color:grey;
+}
+

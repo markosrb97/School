@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		
+		<title>Peti domaci zadatak | JavaScript</title>
+		
+		<!-- SEO OPTIMIZACIJA -->
+		<meta name="description" content="Domaci zadatak iz JavaScript-a" />
+		<meta name="keywords" content="Domaci, JavaScript" />
+		<meta name="author" content="Marko Radosavljevic" />
+		<meta name="robots" content="NO INDEX, NO FOLLOW" />
+		
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	
+	<body>
+		<p>Broj 1 : <input type="number" id="broj0" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 2 : <input type="number" id="broj1" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 3 : <input type="number" id="broj2" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 4 : <input type="number" id="broj3" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 5 : <input type="number" id="broj4" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 6 : <input type="number" id="broj5" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<p>Broj 7 : <input type="number" id="broj6" name="broj" value="1" min="1" max="36" onchange="changeNumber(this.value)" /></p>
+		<button type="button" onclick="sacuvaj()">Proveri</button>
+		<p id="error">Uneli ste iste brojeve</p>
+		<p id="rezultat">Vasi brojevi su:</p>
+
+		<div id="unetiBrojevi"></div>
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/main.js"> </script>
+	</body>
+
+</html>

@@ -1,0 +1,78 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+a {
+	text-decoration:none;
+}
+.main-menu {
+	background-color:#C4C4C4;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #000000;
+	text-align:center;
+	
+}
+.main-menu li {
+	display: inline-block;
+	margin-right: 0;
+	width:200px;
+	
+}
+.main-menu li a {
+	display: block;
+	color:#464646;
+	padding: 30px;
+	border: 0px solid #000000;
+}
+.active {
+	background-color:#C4C4C4;
+	color:white;
+}
+.main-menu li a:hover {
+	background-color:#5F6975;
+	color:white;
+}
+#tutorials:hover .tutorials-sub-menu {
+	display:block;
+}
+.tutorials-sub-menu {
+	position:absolute;
+	width:200px;
+	color:white;
+	background-color:#5F6975;
+	display:none;
+}
+.tutorials-sub-menu li  {
+	border-top:1px solid #58626D;
+}
+.tutorials-sub-menu li a {
+	color:white;
+}
+.sub-sub-menu {
+	position:absolute;
+	width:200px;
+	color:white;
+	margin-left: 200px;
+	margin-top: -80px;
+	background-color:#5F6975;
+	display:none;
+
+}
+.tutorials-sub-menu a:hover  {
+-webkit-box-shadow: inset 0px 0px 22px -7px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px 0px 22px -7px rgba(255,255,255,1);
+box-shadow: inset 0px 0px 22px -7px rgba(255,255,255,1);
+}
+#web-desing:hover .sub-sub-menu {
+	display:block;
+}
+
+
+	
+	

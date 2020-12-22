@@ -1,0 +1,74 @@
+.social-network {
+    position: absolute;
+    display: block;
+    width: 35px;
+    padding: 5px 0px;
+	border-radius: 0px 10px 10px 0px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	-moz-border-radius: 0px 10px 10px 0px;
+}
+
+.twitter {
+	margin-top: -80px;
+	background-color:#1da1f2;
+}
+
+.instagram {
+	margin-top: -40px;
+	background-color:#0095f6;
+}
+
+.box-2 {
+	width: 200px;
+    margin: 0px auto;
+}
+
+.about-me-left {
+	float:left;
+}
+
+.about-me-right {
+	float: left;
+    width: 550px;
+    margin-left: 100px;
+    border: 1px solid #dedede;
+    padding: 10px;
+	height:400px;
+	overflow: auto;
+}
+
+.clear {
+	clear:both;
+}
+
+.my-gallery {
+	
+}
+
+.item {
+	border: 1px solid #000;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.reset-margin-right {
+	margin-right:0px !important;
+}
+
+.desc-img {
+	text-align: center;
+    position: absolute;
+    width: 200px;
+    margin-top: -48px;
+    padding: 13px 0px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+	display: none;
+}
+
+.item:hover .desc-img {
+	display: block;
+}

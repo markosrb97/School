@@ -1,0 +1,37 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 540px;
+	margin: 0px auto;
+}
+a {
+	text-decoration:none;
+}
+.text-center {
+	text-align:center;
+}
+.main-menu {
+	list-style-type:none;
+}
+.main-menu li {
+	margin-top:20px;
+}
+.main-menu li a {
+	color:black;
+	font-size:30px;
+}
+.sub-menu {
+	display:none;
+	list-style-type:none;
+}
+.sub-menu li {
+	border-bottom:1px solid black;
+}
+#clients:hover .sub-menu {
+	display:block;
+}
+
+	
+	

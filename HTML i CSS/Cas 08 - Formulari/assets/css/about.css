@@ -1,0 +1,41 @@
+.my-form {
+	margin: 25px 0px;
+}
+
+.form-row {
+	margin-bottom:10px;
+}
+
+.form-row label {
+	display:block;
+	margin-bottom:5px;
+}
+
+.form-control {
+	padding: 8px 5px;
+    width: 250px;
+}
+
+.form-control:focus {
+	color:blue;
+}
+
+select:focus, textarea:focus, input:focus {
+	outline:none;
+}
+
+.note {
+	width:300px;
+	height:150px;
+	resize:none;
+	padding:5px;
+}
+
+.req-span {
+	color:red;
+	font-weight:bold;
+}
+
+.form-control:required {
+	border:1px solid red;
+}

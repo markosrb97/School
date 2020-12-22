@@ -1,0 +1,43 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container {
+	width: 940px;
+	margin: 0px auto;
+}
+.text-center {
+	text-align:center;
+}
+.form-control {
+	width:200px;
+	padding:5px;
+	margin-bottom:5px;
+}
+.mt-100 {
+	margin-top:100px;
+}
+label {
+	width: 70px;
+	display: inline-block;
+}
+.note {
+	width:200px;
+	height:100px;
+	resize:none;
+	padding:5px;
+	margin-bottom:5px;
+}
+a {
+	position: absolute;
+	margin-left: 75px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	background: #626763;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+}

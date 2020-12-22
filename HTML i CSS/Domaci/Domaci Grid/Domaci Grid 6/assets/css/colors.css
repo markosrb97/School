@@ -1,0 +1,33 @@
+.default-bf-color {
+	background-color:#F1F1F1;
+}
+.about-me-bc {
+	background-color:#FF2B42;
+}
+.my-service-bc {
+	background-color:#1CBAC8;
+}
+.my-resume-bc {
+	background-color:#00CCCC;
+}
+.my-work-bc {
+	background-color:#21BB9D;
+}
+.my-blog-bc {
+	background-color:#09AFDF;
+}
+.contact-me-bc {
+	background-color:#F7AD17;
+}
+.text-white {
+	color:white;
+}
+.text-red {
+	color:red;
+}
+.bc-color-white {
+	background-color:white;
+}
+.bc-color-black {
+	background-color:black;
+}

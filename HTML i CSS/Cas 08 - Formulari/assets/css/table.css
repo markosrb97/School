@@ -1,0 +1,55 @@
+.my-table-1 {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0px;
+}
+
+.my-table-1 tr th {
+	border: 1px solid #b7b7b7;
+    background-color: black;
+    color: white;
+    padding: 10px 0px;
+}
+
+.my-table-1 tr td {
+	border:1px solid #b7b7b7;
+	padding: 10px;
+}
+
+.my-table-1 tr:hover {
+	border:2px solid black;
+}
+
+.my-tr:nth-child(odd) {
+	background-color: grey;
+}
+
+.field-red {
+	background-color: red;
+}
+
+.my-table-2 {
+	width: 400px;
+	border-collapse: collapse;
+	margin: 20px 0px;
+}
+
+.my-table-2 tr th {
+	border: 1px solid #b7b7b7;
+    padding: 10px;
+	text-align:left;
+}
+
+.profile-data {
+	width:400px;
+}
+
+.profile-data tr td {
+	padding: 5px 0px;
+}
+
+.my-table-2 tr td {
+	border:1px solid #b7b7b7;
+	padding: 10px;
+	text-align:center;
+}

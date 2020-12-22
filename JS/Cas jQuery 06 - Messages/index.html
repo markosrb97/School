@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		
+		<title> Naslovna | Javascript | jQuery Cas 06 | Messages </title>
+		
+		<!-- SEO OPTIMIZACIJA -->
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Petar Petrovic" />
+		<meta name="robots" content="NO INDEX, NO FOLLOW" />
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	
+	<body>
+		
+		<h2>Zdravo, ja sam <span class="username">GrupaFE</span></h2>
+		
+		<div id="chat" class="chat">
+			<!---->
+		</div>
+		
+		<textarea class="message" placeholder="Unesite tekst" onkeyup="enterMessage()" maxlength="300"></textarea><br/>
+		Duzina: <span id="leng-mess">300</span>
+		
+		<div class="mt-25">
+			<button type="button" id="btn-send" onclick="sendMessage()">Posalji</button>
+		</div>
+		
+		<script src="assets/js/jquery-3.5.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+
+</html>
